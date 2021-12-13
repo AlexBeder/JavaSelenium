@@ -14,7 +14,7 @@ public class DemoQALogin {
   public void loginToApp() throws InterruptedException {
     // Name = Alex Tester, User = AlexTester, Password = AlexPass1234$
 
-    System.setProperty("webdriver.edge.driver","msedgedriver.exe");
+    System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
     WebDriver driver = new EdgeDriver();
     driver.get("https://demoqa.com/login");
 
@@ -27,9 +27,9 @@ public class DemoQALogin {
     loginButton.click();
     Thread.sleep(2000);
 
-    try{
+    try {
       WebElement enteredUser = driver.findElement(By.cssSelector("[id='userName-value']"));
-      Assert.assertTrue(true);
+      Assert.assertEquals(enteredUser.getText(), "AlexTester");
     } catch (NoSuchElementException xx) {
       Assert.fail("userName element not found");
     }
