@@ -37,4 +37,14 @@ public class LoginPage {
     getLoginButton().click();
     return new ProfilePage(driver);
   }
+
+  public boolean isError() {
+    try {
+      wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[id='name']")));
+      return true;
+
+    } catch (Exception xx) {
+      return false;
+    }
+  }
 }

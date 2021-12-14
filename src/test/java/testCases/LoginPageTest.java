@@ -37,8 +37,8 @@ public class LoginPageTest {
   public void wrongLoginToApp() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    ProfilePage profilePage = loginPage.login("AlexTester_Wrong", "AlexPass1234$");
-    Assert.assertTrue(profilePage.isProfilePage());
+    loginPage.login("AlexTester_Wrong", "AlexPass1234$");
+    Assert.assertTrue(loginPage.isError());
   }
 
 
