@@ -1,16 +1,15 @@
 package pages;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ProfilePage {
-  private WebDriver driver;
-  private WebDriverWait wait;
+public class ProfilePage extends BasePage {
 
   public ProfilePage(WebDriver driver) {
-    this.driver=driver;
-    wait = new WebDriverWait(this.driver, 10, 200);
+    super(driver);
+
   }
 
   public boolean isProfilePage(){
