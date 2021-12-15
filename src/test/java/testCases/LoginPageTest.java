@@ -9,21 +9,8 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.ProfilePage;
 
-public class LoginPageTest {
-  private WebDriver driver;
+public class LoginPageTest extends BaseTest {
 
-  @BeforeMethod
-  public void startUp() {
-    // Name = Alex Tester, User = AlexTester, Password = AlexPass1234$
-    System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
-    driver = new EdgeDriver();
-  }
-
-  @AfterMethod
-  public void tearDown() throws InterruptedException {
-    Thread.sleep(3000);
-    driver.close();
-  }
 
   @Test(description = "Positive login test")
   public void loginToApp() {
