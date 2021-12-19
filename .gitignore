@@ -31,3 +31,6 @@ out/
 *.iml
 *.ipr
 *.iws
+
+# WebDriver #
+msedgedriver.exe
