@@ -34,3 +34,4 @@ out/
 
 # WebDriver #
 msedgedriver.exe
+chromedriver.exe

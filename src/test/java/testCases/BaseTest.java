@@ -1,7 +1,8 @@
 package testCases;
 
+import enums.BrowserType;
+import helper.BrowserSelector;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -11,8 +12,8 @@ public class BaseTest {
   @BeforeMethod
   public void startUp() {
     // Name = Alex Tester, User = AlexTester, Password = AlexPass1234$
-    System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
-    driver = new EdgeDriver();
+    driver = BrowserSelector.getDriver(BrowserType.EDGE);
+    driver.manage().window().maximize();
   }
 
   @AfterMethod
