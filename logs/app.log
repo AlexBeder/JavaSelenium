@@ -4,3 +4,15 @@
 2021-12-20 15:02:47,494 INFO p.LoginPage [main] Login button is clicked
 2021-12-20 15:02:57,440 INFO p.LoginPage [main] In the login method
 2021-12-20 15:02:58,226 INFO p.LoginPage [main] Login button is clicked
+2021-12-20 16:04:03,598 INFO p.LoginPage [TestNG-test=All tests-1] In the login method
+2021-12-20 16:04:05,823 INFO p.LoginPage [TestNG-test=All tests-1] Login button is clicked
+2021-12-20 16:04:15,543 INFO p.LoginPage [TestNG-test=All tests-1] In the login method
+2021-12-20 16:04:17,886 INFO p.LoginPage [TestNG-test=All tests-1] Login button is clicked
+2021-12-20 16:04:27,693 INFO p.LoginPage [TestNG-test=All tests-1] In the login method
+2021-12-20 16:04:29,287 INFO p.LoginPage [TestNG-test=All tests-1] Login button is clicked
+2021-12-20 16:07:28,093 INFO p.LoginPage [TestNG-test=All tests-1] In the login method
+2021-12-20 16:07:29,735 INFO p.LoginPage [TestNG-test=All tests-1] Login button is clicked
+2021-12-20 16:09:29,989 INFO p.LoginPage [TestNG-test=All tests-1] In the login method
+2021-12-20 16:09:31,967 INFO p.LoginPage [TestNG-test=All tests-1] Login button is clicked
+2021-12-20 16:11:32,337 INFO p.LoginPage [TestNG-test=All tests-1] In the login method
+2021-12-20 16:11:33,698 INFO p.LoginPage [TestNG-test=All tests-1] Login button is clicked
