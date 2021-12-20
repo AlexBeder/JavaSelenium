@@ -19,7 +19,7 @@ public class LoginPageTest extends BaseTest {
     Assert.assertTrue(true);
   }
 
-  @Test(description = "Positive login test", enabled = true)
+  @Test(description = "Positive login test")
   public void loginToApp() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
@@ -31,7 +31,7 @@ public class LoginPageTest extends BaseTest {
   public void wrongLoginToApp() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    loginPage.login("AlexTester_Wrong", password);
+    loginPage.login(wrongUserName, password);
     Assert.assertTrue(loginPage.isError());
   }
 
@@ -47,7 +47,7 @@ public class LoginPageTest extends BaseTest {
   public void wrongLoginToApp2() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    loginPage.login("AlexTester_Wrong", password);
+    loginPage.login(wrongUserName, password);
     Assert.assertTrue(loginPage.isError());
   }
 

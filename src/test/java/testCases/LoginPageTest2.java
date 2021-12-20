@@ -20,7 +20,7 @@ public class LoginPageTest2 extends BaseTest {
   public void wrongLoginToApp3() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    loginPage.login("AlexTester_Wrong", password);
+    loginPage.login(wrongUserName, password);
     Assert.assertTrue(loginPage.isError());
   }
 
@@ -36,7 +36,7 @@ public class LoginPageTest2 extends BaseTest {
   public void wrongLoginToApp4() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    loginPage.login("AlexTester_Wrong", password);
+    loginPage.login(wrongUserName, password);
     Assert.assertTrue(loginPage.isError());
   }
 
