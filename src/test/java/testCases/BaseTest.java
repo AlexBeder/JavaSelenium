@@ -5,9 +5,19 @@ import helper.BrowserSelector;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 
 public class BaseTest {
   protected WebDriver driver;
+  protected String userName;
+  protected String password;
+
+  @BeforeSuite
+  public void credentials(){
+    userName = "AlexTester";
+    password = "AlexPass1234$";
+  }
+
 
   @BeforeMethod
   public void startUp() {

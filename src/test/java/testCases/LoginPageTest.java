@@ -1,5 +1,6 @@
 package testCases;
 
+import listeners.RetryAnalyzer;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.LoginPage;
@@ -7,12 +8,22 @@ import pages.ProfilePage;
 
 public class LoginPageTest extends BaseTest {
 
+  //Retry practicing
+  int count = 0;
+
+  @Test(retryAnalyzer = RetryAnalyzer.class)
+  public void retryTest(){
+    if(count++<3){
+      Assert.assertTrue(false);
+    }
+    Assert.assertTrue(true);
+  }
 
   @Test(description = "Positive login test", enabled = true)
   public void loginToApp() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    ProfilePage profilePage = loginPage.login("AlexTester", "AlexPass1234$");
+    ProfilePage profilePage = loginPage.login(userName, password);
     Assert.assertTrue(profilePage.isProfilePage());
   }
 
@@ -20,7 +31,7 @@ public class LoginPageTest extends BaseTest {
   public void wrongLoginToApp() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    loginPage.login("AlexTester_Wrong", "AlexPass1234$");
+    loginPage.login("AlexTester_Wrong", password);
     Assert.assertTrue(loginPage.isError());
   }
 
@@ -28,7 +39,7 @@ public class LoginPageTest extends BaseTest {
   public void loginToApp2() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    ProfilePage profilePage = loginPage.login("AlexTester", "AlexPass1234$");
+    ProfilePage profilePage = loginPage.login(userName, password);
     Assert.assertTrue(profilePage.isProfilePage());
   }
 
@@ -36,7 +47,7 @@ public class LoginPageTest extends BaseTest {
   public void wrongLoginToApp2() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    loginPage.login("AlexTester_Wrong", "AlexPass1234$");
+    loginPage.login("AlexTester_Wrong", password);
     Assert.assertTrue(loginPage.isError());
   }
 

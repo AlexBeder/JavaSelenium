@@ -12,7 +12,7 @@ public class LoginPageTest3 extends BaseTest {
   public void loginToApp5() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    ProfilePage profilePage = loginPage.login("AlexTester", "AlexPass1234$");
+    ProfilePage profilePage = loginPage.login(userName, password);
     Assert.assertTrue(profilePage.isProfilePage());
   }
 
@@ -20,7 +20,7 @@ public class LoginPageTest3 extends BaseTest {
   public void wrongLoginToApp5() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    loginPage.login("AlexTester_Wrong", "AlexPass1234$");
+    loginPage.login("AlexTester_Wrong", password);
     Assert.assertTrue(loginPage.isError());
   }
 
@@ -28,7 +28,7 @@ public class LoginPageTest3 extends BaseTest {
   public void loginToApp6() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    ProfilePage profilePage = loginPage.login("AlexTester", "AlexPass1234$");
+    ProfilePage profilePage = loginPage.login(userName, password);
     Assert.assertTrue(profilePage.isProfilePage());
   }
 
@@ -36,7 +36,7 @@ public class LoginPageTest3 extends BaseTest {
   public void wrongLoginToApp6() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
-    loginPage.login("AlexTester_Wrong", "AlexPass1234$");
+    loginPage.login("AlexTester_Wrong", password);
     Assert.assertTrue(loginPage.isError());
   }
 
