@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+    <test name="All tests">
+        <classes>
+            <class name="testCases.LoginPageTest">
+                <methods>
+                    <include name="loginToApp"/>
+                    <include name="wrongLoginToApp"/>
+                    <include name="loginToApp2"/>
+                    <include name="wrongLoginToApp2"/>
+                </methods>
+            </class>
+            <class name="testCases.LoginPageTest2">
+                <methods>
+                    <include name="loginToApp3"/>
+                    <include name="wrongLoginToApp3"/>
+                    <include name="loginToApp4"/>
+                    <include name="wrongLoginToApp4"/>
+                </methods>
+            </class>
+            <class name="testCases.LoginPageTest3">
+                <methods>
+                    <include name="loginToApp5"/>
+                    <include name="wrongLoginToApp5"/>
+                    <include name="loginToApp6"/>
+                    <include name="wrongLoginToApp6"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
