@@ -8,7 +8,7 @@ import pages.ProfilePage;
 public class LoginPageTest extends BaseTest {
 
 
-  @Test(description = "Positive login test")
+  @Test(description = "Positive login test", enabled = true)
   public void loginToApp() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
@@ -24,7 +24,7 @@ public class LoginPageTest extends BaseTest {
     Assert.assertTrue(loginPage.isError());
   }
 
-  @Test(description = "Positive login test")
+  @Test(description = "Positive login test", enabled = false)
   public void loginToApp2() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
