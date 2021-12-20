@@ -5,11 +5,11 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.ProfilePage;
 
-public class LoginPageTest extends BaseTest {
+public class LoginPageTest3 extends BaseTest {
 
 
   @Test(description = "Positive login test")
-  public void loginToApp() {
+  public void loginToApp5() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
     ProfilePage profilePage = loginPage.login("AlexTester", "AlexPass1234$");
@@ -17,7 +17,7 @@ public class LoginPageTest extends BaseTest {
   }
 
   @Test(description = "Negative login test")
-  public void wrongLoginToApp() {
+  public void wrongLoginToApp5() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
     loginPage.login("AlexTester_Wrong", "AlexPass1234$");
@@ -25,7 +25,7 @@ public class LoginPageTest extends BaseTest {
   }
 
   @Test(description = "Positive login test")
-  public void loginToApp2() {
+  public void loginToApp6() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
     ProfilePage profilePage = loginPage.login("AlexTester", "AlexPass1234$");
@@ -33,7 +33,7 @@ public class LoginPageTest extends BaseTest {
   }
 
   @Test(description = "Negative login test")
-  public void wrongLoginToApp2() {
+  public void wrongLoginToApp6() {
     LoginPage loginPage = new LoginPage(driver);
     loginPage.openLoginPage();
     loginPage.login("AlexTester_Wrong", "AlexPass1234$");
