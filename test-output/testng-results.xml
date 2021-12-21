@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="16" passed="10" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-21T01:57:11Z" name="Master Suite" finished-at="2021-12-21T01:58:56Z" duration-ms="105219">
+    <groups>
+    </groups>
+    <test started-at="2021-12-21T01:57:11Z" name="All tests" finished-at="2021-12-21T01:58:56Z" duration-ms="105219">
+      <class name="testCases.LoginPageTest">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:11Z" name="startUp" finished-at="2021-12-21T01:57:25Z" duration-ms="14601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="retryTest()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:25Z" name="retryTest" finished-at="2021-12-21T01:57:25Z" duration-ms="7" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testCases.LoginPageTest.retryTest(LoginPageTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:25Z" name="tearDown" finished-at="2021-12-21T01:57:26Z" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:26Z" name="startUp" finished-at="2021-12-21T01:57:38Z" duration-ms="12197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="retryTest()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:38Z" name="retryTest" finished-at="2021-12-21T01:57:38Z" duration-ms="1" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testCases.LoginPageTest.retryTest(LoginPageTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:38Z" name="tearDown" finished-at="2021-12-21T01:57:39Z" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:39Z" name="startUp" finished-at="2021-12-21T01:57:48Z" duration-ms="8862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="retryTest()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:48Z" name="retryTest" finished-at="2021-12-21T01:57:48Z" duration-ms="1" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testCases.LoginPageTest.retryTest(LoginPageTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:48Z" name="tearDown" finished-at="2021-12-21T01:57:49Z" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:49Z" name="startUp" finished-at="2021-12-21T01:57:58Z" duration-ms="9513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="retryTest()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:58Z" name="retryTest" finished-at="2021-12-21T01:57:58Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:58Z" name="tearDown" finished-at="2021-12-21T01:57:59Z" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:57:59Z" name="startUp" finished-at="2021-12-21T01:58:09Z" duration-ms="10890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginToApp()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:58:09Z" name="loginToApp" description="Positive login test" finished-at="2021-12-21T01:58:27Z" duration-ms="17521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:58:27Z" name="tearDown" finished-at="2021-12-21T01:58:28Z" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:58:28Z" name="startUp" finished-at="2021-12-21T01:58:36Z" duration-ms="8385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="wrongLoginToApp()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:58:36Z" name="wrongLoginToApp" description="Negative login test" finished-at="2021-12-21T01:58:41Z" duration-ms="5145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginToApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:58:41Z" name="tearDown" finished-at="2021-12-21T01:58:42Z" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:58:42Z" name="startUp" finished-at="2021-12-21T01:58:49Z" duration-ms="7508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="wrongLoginToApp2()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:58:49Z" name="wrongLoginToApp2" description="Negative login test" finished-at="2021-12-21T01:58:55Z" duration-ms="6154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginToApp2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest@15c43bd9]" started-at="2021-12-21T01:58:55Z" name="tearDown" finished-at="2021-12-21T01:58:56Z" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginPageTest -->
+      <class name="testCases.LoginPageTest3">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest3@4f209819]" started-at="2021-12-21T01:57:11Z" name="startUp" finished-at="2021-12-21T01:57:25Z" duration-ms="14846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginToApp5()[pri:0, instance:testCases.LoginPageTest3@4f209819]" started-at="2021-12-21T01:57:25Z" name="loginToApp5" description="Positive login test" finished-at="2021-12-21T01:57:45Z" duration-ms="19754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest3@4f209819]" started-at="2021-12-21T01:57:45Z" name="tearDown" finished-at="2021-12-21T01:57:46Z" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest3@4f209819]" started-at="2021-12-21T01:57:46Z" name="startUp" finished-at="2021-12-21T01:57:57Z" duration-ms="10950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginToApp6()[pri:0, instance:testCases.LoginPageTest3@4f209819]" started-at="2021-12-21T01:57:57Z" name="loginToApp6" description="Positive login test" finished-at="2021-12-21T01:58:08Z" duration-ms="11288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp6 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest3@4f209819]" started-at="2021-12-21T01:58:08Z" name="tearDown" finished-at="2021-12-21T01:58:09Z" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest3@4f209819]" started-at="2021-12-21T01:58:09Z" name="startUp" finished-at="2021-12-21T01:58:21Z" duration-ms="12728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="wrongLoginToApp6()[pri:0, instance:testCases.LoginPageTest3@4f209819]" started-at="2021-12-21T01:58:21Z" name="wrongLoginToApp6" description="Negative login test" finished-at="2021-12-21T01:58:34Z" duration-ms="12336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginToApp6 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest3@4f209819]" started-at="2021-12-21T01:58:34Z" name="tearDown" finished-at="2021-12-21T01:58:34Z" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginPageTest3 -->
+      <class name="testCases.LoginPageTest2">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest2@3d74bf60]" started-at="2021-12-21T01:57:11Z" name="startUp" finished-at="2021-12-21T01:57:24Z" duration-ms="13751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginToApp3()[pri:0, instance:testCases.LoginPageTest2@3d74bf60]" started-at="2021-12-21T01:57:24Z" name="loginToApp3" description="Positive login test" finished-at="2021-12-21T01:57:40Z" duration-ms="15624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest2@3d74bf60]" started-at="2021-12-21T01:57:40Z" name="tearDown" finished-at="2021-12-21T01:57:41Z" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest2@3d74bf60]" started-at="2021-12-21T01:57:41Z" name="startUp" finished-at="2021-12-21T01:57:51Z" duration-ms="10330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="wrongLoginToApp3()[pri:0, instance:testCases.LoginPageTest2@3d74bf60]" started-at="2021-12-21T01:57:51Z" name="wrongLoginToApp3" description="Negative login test" finished-at="2021-12-21T01:58:05Z" duration-ms="13770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginToApp3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest2@3d74bf60]" started-at="2021-12-21T01:58:05Z" name="tearDown" finished-at="2021-12-21T01:58:06Z" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:testCases.LoginPageTest2@3d74bf60]" started-at="2021-12-21T01:58:06Z" name="startUp" finished-at="2021-12-21T01:58:15Z" duration-ms="9149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginToApp4()[pri:0, instance:testCases.LoginPageTest2@3d74bf60]" started-at="2021-12-21T01:58:15Z" name="loginToApp4" description="Positive login test" finished-at="2021-12-21T01:58:28Z" duration-ms="12715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageTest2@3d74bf60]" started-at="2021-12-21T01:58:28Z" name="tearDown" finished-at="2021-12-21T01:58:29Z" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginPageTest2 -->
+    </test> <!-- All tests -->
+  </suite> <!-- Master Suite -->
+</testng-results>

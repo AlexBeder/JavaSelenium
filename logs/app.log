@@ -16,3 +16,33 @@
 2021-12-20 16:09:31,967 INFO p.LoginPage [TestNG-test=All tests-1] Login button is clicked
 2021-12-20 16:11:32,337 INFO p.LoginPage [TestNG-test=All tests-1] In the login method
 2021-12-20 16:11:33,698 INFO p.LoginPage [TestNG-test=All tests-1] Login button is clicked
+2021-12-20 20:57:34,706 INFO p.LoginPage [TestNG-test=All tests-2] In the login method
+2021-12-20 20:57:39,640 INFO p.LoginPage [TestNG-test=All tests-2] Login button is clicked
+2021-12-20 20:57:41,870 INFO p.LoginPage [TestNG-test=All tests-3] In the login method
+2021-12-20 20:57:44,988 INFO p.LoginPage [TestNG-test=All tests-3] Login button is clicked
+2021-12-20 20:57:59,811 INFO p.LoginPage [TestNG-test=All tests-2] In the login method
+2021-12-20 20:58:02,325 INFO p.LoginPage [TestNG-test=All tests-3] In the login method
+2021-12-20 20:58:04,404 INFO p.LoginPage [TestNG-test=All tests-2] Login button is clicked
+2021-12-20 20:58:07,345 INFO p.LoginPage [TestNG-test=All tests-3] Login button is clicked
+2021-12-20 20:58:20,004 INFO p.LoginPage [TestNG-test=All tests-1] In the login method
+2021-12-20 20:58:21,304 INFO p.LoginPage [TestNG-test=All tests-2] In the login method
+2021-12-20 20:58:25,620 INFO p.LoginPage [TestNG-test=All tests-1] Login button is clicked
+2021-12-20 20:58:27,401 INFO p.LoginPage [TestNG-test=All tests-2] Login button is clicked
+2021-12-20 20:58:30,505 INFO p.LoginPage [TestNG-test=All tests-3] In the login method
+2021-12-20 20:58:33,761 INFO p.LoginPage [TestNG-test=All tests-3] Login button is clicked
+2021-12-20 20:58:39,561 INFO p.LoginPage [TestNG-test=All tests-1] In the login method
+2021-12-20 20:58:41,539 INFO p.LoginPage [TestNG-test=All tests-1] Login button is clicked
+2021-12-20 20:58:53,716 INFO p.LoginPage [TestNG-test=All tests-1] In the login method
+2021-12-20 20:58:55,599 INFO p.LoginPage [TestNG-test=All tests-1] Login button is clicked
+2021-12-20 21:35:21,869 INFO p.LoginPage [main] In the login method
+2021-12-20 21:35:24,749 INFO p.LoginPage [main] Login button is clicked
+2021-12-20 21:36:11,113 INFO p.LoginPage [main] In the login method
+2021-12-20 21:36:11,699 INFO p.LoginPage [main] Login button is clicked
+2021-12-20 21:36:22,348 INFO p.LoginPage [main] In the login method
+2021-12-20 21:36:24,471 INFO p.LoginPage [main] Login button is clicked
+2021-12-20 21:39:55,778 INFO p.LoginPage [main] In the login method
+2021-12-20 21:39:57,751 INFO p.LoginPage [main] Login button is clicked
+2021-12-20 21:40:45,227 INFO p.LoginPage [main] In the login method
+2021-12-20 21:40:45,968 INFO p.LoginPage [main] Login button is clicked
+2021-12-20 21:40:57,833 INFO p.LoginPage [main] In the login method
+2021-12-20 21:41:00,214 INFO p.LoginPage [main] Login button is clicked
